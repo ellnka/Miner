@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="3ad6c69c-a6f5-4da3-9144-79db338a583f" name="https://github.com/ellnka/MinerGame.git" url="https://github.com/">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
+      <webServer id="d0ae5084-0729-4deb-ade6-b7e4f51c2e06" name="https://github.com/ellnka/MinerGame.git (1)" url="https://github.com/ellnka/MinerGame.git">
+        <fileTransfer port="0" accessType="LOCAL" />
+      </webServer>
+      <webServer id="9f41c13d-4d5c-4294-8738-b4fb68d576fc" name="https://github.com/ellnka/MinerGame.git (2)">
+        <fileTransfer port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

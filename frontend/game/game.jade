@@ -1,0 +1,37 @@
+.miner-container
+  .miner-header
+    .miner-menu
+      button.btn.miner-menu-new-game New Game
+      button.btn.miner-menu-settings Settings
+    .miner-title.alert.alert-info
+      span Your score:
+      .miner-counter
+  .miner-settings
+    .fade-in
+      .dialog
+        .dialog-content
+          .dialog-header
+            h2 Settings
+          .dialog-body
+            .miner-row-count
+              span Row count:
+              input(type="number", value=height)
+            br
+            .miner-column-count
+              span Column count:
+              input(type="number", value=width)
+            br
+            .miner-bomb-count
+              span Bomb count:
+              input(type="number", value=bombCount)
+          .dialog-footer
+            button.btn-dialog-close Close
+  .miner-field
+    - for (let i = 0; i < height; i++){
+      .miner-row
+        - for (let j = 0; j < width; j++) {
+          .miner-cell(id="id"+i+"-"+j)
+        -}
+    -}
+
+

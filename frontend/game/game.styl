@@ -1,0 +1,314 @@
+  html
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif
+    line-height 1.15
+    -ms-text-size-adjust 100%
+    -webkit-text-size-adjust 100%
+    text-rendering auto
+    color initial
+    letter-spacing normal
+    word-spacing normal
+
+  h1, h2, h3
+    padding 0
+    margin 0
+
+  button
+    -webkit-appearance button
+    -webkit-writing-mode horizontal-tb
+
+  b, strong
+    font-weight inherit
+
+  b, strong
+    font-weight bolder
+
+  .miner-container
+    padding 0
+    text-align center
+    position absolute
+    margin-right -50%
+    float clear
+
+  .miner-header
+    margin 5px 0
+    height 35px
+
+  .miner-field
+    border 1px solid #00529b
+    padding 25px
+    background-color #6699cc
+    border-radius 7px
+    float clear
+
+  .miner-row
+    width 680px
+    display block
+    background-color #6699cc
+    margin 0
+    height 30px
+    padding 0
+
+  .miner-cell
+    width 20px
+    height 20px
+    background-color #637aad
+    display inline-block
+    margin 1px 1px
+    text-align center
+    -moz-box-shadow inset 0 1px 0 0 #7a8eb9
+    -webkit-box-shadow inset 0 1px 0 0 #7a8eb9
+    box-shadow inset 0 1px 0 0 #7a8eb9
+    background -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #637aad), color-stop(1, #5972a7))
+    background -moz-linear-gradient(top, #637aad 5%, #5972a7 100%)
+    background -webkit-linear-gradient(top, #637aad 5%, #5972a7 100%)
+    background -o-linear-gradient(top, #637aad 5%, #5972a7 100%)
+    background -ms-linear-gradient(top, #637aad 5%, #5972a7 100%)
+    background linear-gradient(to bottom, #637aad 5%, #5972a7 100%)
+    border 1px solid #314179
+    cursor pointer
+    color #ffffff
+    font-family Arial
+    font-size 13px
+    font-weight bold
+    text-decoration none
+    padding 3px
+
+  .opened
+    background-color #ededed
+    -moz-box-shadow inset 0 1px 0 0 #ffffff
+    -webkit-box-shadow inset  1px 0 0 #ffffff
+    box-shadow inset 0 1px 0 0 #ffffff
+    background -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf))
+    background -moz-linear-gradient(top, #ededed 5%, #dfdfdf 100%)
+    background -webkit-linear-gradient(top, #ededed 5%, #dfdfdf 100%)
+    background -o-linear-gradient(top, #ededed 5%, #dfdfdf 100%)
+    background -ms-linear-gradient(top, #ededed 5%, #dfdfdf 100%)
+    background linear-gradient(to bottom,  #ededed 5%, #dfdfdf 100%)
+    border 1px solid #dcdcdc
+
+  .mined
+    background-color #d0451b
+    content url(pics/bomb.png)
+    -moz-box-shadow inset 0 1px 0 0 #cf866c
+    -webkit-box-shadow inset 0 1px 0 0 #cf866c
+    box-shadow inset 0 1px 0 0 #cf866c
+    background -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #d0451b), color-stop(1, #bc3315))
+    background -moz-linear-gradient(top, #d0451b 5%, #bc3315 100%)
+    background -webkit-linear-gradient(top, #d0451b 5%, #bc3315 100%)
+    background -o-linear-gradient(top, #d0451b 5%, #bc3315 100%)
+    background -ms-linear-gradient(top, #d0451b 5%, #bc3315 100%)
+    background linear-gradient(to bottom, #d0451b 5%, #bc3315 100%)
+    border 1px solid #942911
+
+  .nearby
+    background-color #74ad5a
+    -moz-box-shadow inset 0 1px 0 0 #9acc85
+    -webkit-box-shadow inset 0 1px 0 0 #9acc85
+    box-shadow inset 0 1px 0 0 #9acc85
+    background -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #74ad5a), color-stop(1, #68a54b))
+    background -moz-linear-gradient(top, #74ad5a 5%, #68a54b 100%)
+    background -webkit-linear-gradient(top, #74ad5a 5%, #68a54b 100%)
+    background -o-linear-gradient(top, #74ad5a 5%, #68a54b 100%)
+    background -ms-linear-gradient(top, #74ad5a 5%, #68a54b 100%)
+    background linear-gradient(to bottom,  #74ad5a 5%, #68a54b 100%)
+    border 1px solid #3b6e22
+    line-height 20px
+    display  inline-block
+    vertical-align top
+    padding 3px
+
+  .nearby span
+    vertical-align top
+    height 13px
+    position  relative
+    display inline-block
+    margin 0
+    width auto
+
+  .opened-bomb
+    background-color #f0c911
+    content  url(pics/flag.png)
+    -moz-box-shadow inset 0 1px 0 0 #f9eca0
+    -webkit-box-shadow inset 0 1px 0 0 #f9eca0
+    box-shadow inset 0 1px 0 0 #f9eca0
+    background -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f0c911), color-stop(1, #f2ab1e))
+    background -moz-linear-gradient(top, #f0c911 5%, #f2ab1e 100%)
+    background -webkit-linear-gradient(top, #f0c911 5%, #f2ab1e 100%)
+    background -o-linear-gradient(top, #f0c911 5%, #f2ab1e 100%)
+    background -ms-linear-gradient(top, #f0c911 5%, #f2ab1e 100%)
+    background linear-gradient(to bottom,  #f0c911 5%, #f2ab1e 100%)
+    border 1px solid #e65f44
+
+
+
+  .alert-info, .alert-success, .alert-danger
+    padding 10px 10px 5px 50px
+    background-repeat no-repeat
+    background-position 10px center
+    border 1px solid transparent
+    border-radius 4px
+    margin 3px 0 10px 0
+    height 15px
+    font-size 12px
+    width 200px
+    float right
+    vertical-align middle
+    font-weight bold
+
+  .alert-info
+    color #333
+    background-color #bce8f1
+    border-color #bce8f1
+
+  .alert-info span, .miner-counter
+    float left
+    margin 0
+
+  .alert-success
+    color #3c763d
+    background-color #dff0d8
+    border-color #d6e9c6
+
+  .alert-danger
+    color #a94442
+    background-color #f2dede
+    border-color #ebccd1
+
+  .miner-settings
+    font-family "Helvetica Neue", Helvetica, Arial, sans-serif
+    font-size 12px
+    padding 15 px 0;
+    -webkit-tap-highlight-color #000
+    display none
+
+  .miner-settings .fade-in
+    display block
+    position fixed
+    top 0
+    left 0
+    bottom 0
+    right 0
+    z-index 1050
+    box-sizing border-box
+    color #333333
+    transition opacity .15s linear
+    outline-color black
+    background-color  rgba(0, 0, 0, 0.5)
+
+
+  .miner-settings .dialog
+    margin 30px auto
+    position relative
+    width 332px
+    height 300px
+    padding 20px
+    opacity 1
+
+  .miner-settings .dialog-content
+    background-color #fff
+    border 1px solid rgba(0,0,0,1)
+    border-radius 6px
+    background-clip padding-box
+    height 250px
+    opacity 1
+
+  .miner-settings .dialog-header
+    height 20px
+    padding 15px
+    display table
+    width 300px
+    border-bottom 1px solid #e5e5e5
+
+
+  .miner-settings .dialog-body
+    height 100px
+    padding 15px
+    display table
+
+  .miner-settings .dialog-footer
+    height 30px
+    padding 15px
+    display table
+    border-top 1px solid #e5e5e5
+    width 300px
+
+  .miner-row-count, .miner-column-count, .miner-bomb-count
+    height 15px
+    width 150px
+
+
+  .miner-settings span
+    width 90px
+    float left
+    vertical-align middle
+    margin 12px 5px
+    text-align right
+
+  .miner-settings input
+    width 45px
+    padding 3px
+    float left
+    margin 5px 0
+    display inline-block
+    border 1px solid #ccc
+    border-radius 4px
+    box-sizing border-box
+
+  .btn-dialog-close
+    border 1px solid #ccc
+    display  inline-block
+    padding 6px 12px
+    color #333
+    background-color #fff
+    vertical-align middle
+    white-space nowrap
+    cursor pointer
+    border-radius 4px
+
+  .miner-menu
+    vertical-align middle
+    border 1px solid transparent
+    height 30px
+    margin 5px 0
+    width 300px
+    color #fff
+    float left
+
+
+  .miner-menu .btn
+    border 1px solid #2e6da4
+    background-color #337ab7
+    padding 5px 12px
+    vertical-align middle
+    cursor pointer
+    border-radius 4px
+    float left
+    display inline-block
+    color #fff
+    height 30px
+    font-size 12px
+
+  .miner-menu>.btn:not(:first-child):not(:last-child):not(.dropdown-toggle)
+    border-radius 0
+
+  .miner-menu .btn+.btn, .miner-menu .btn+.miner-menu, .miner-menu .miner-menu+.btn, .miner-menu .miner-menu+.miner-menu
+    margin-left -1px
+
+  .miner-menu>.btn:first-child:not(:last-child):not(.dropdown-toggle)
+    border-top-right-radius 0
+    border-bottom-right-radius 0
+
+  .miner-menu>.btn:last-child:not(:first-child), .miner-menu>.dropdown-toggle:not(:first-child)
+    border-top-left-radius 0
+    border-bottom-left-radius 0
+
+  .miner-menu>.btn:first-child
+    margin-left 0
+
+
+
+
+
+
+
+
